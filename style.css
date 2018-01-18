@@ -1,3 +1,22 @@
-body {
-  background-size: 50%;
+h1{
+  font-family: sans-serif;
+  color : white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+p{
+  width:60%;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#burg0{
+  height: 100vh;
+  background-image: url('Burger.jpg');
+  background-size: cover;
+  background-position: center center;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
